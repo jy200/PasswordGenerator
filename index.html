@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href=""> -->
+    </head>
+    <body>
+        <div>
+            By default, the generator has numbers 0-9
+            <div>
+                <input id="inputUpper" type="checkbox"/>
+                A-Z
+            </div>
+            <div>
+                <input id="inputLower" type="checkbox"/>
+                a-z  
+            </div>
+            <div>
+                <input id="inputSpecial" type="checkbox"/>
+                Special (!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~)
+            </div>
+            <div>
+                Password Length
+                <input id="inputNumber" type="number" value='1' min="1" max="512"/> 
+            </div>
+            <div>
+                <input id="submit" type="submit" value="Generate Password"/>
+            </div>
+            <div id="pass"></div>
+            <button id="copy">Copy to clipboard</button>
+        </div>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
